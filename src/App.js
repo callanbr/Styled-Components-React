@@ -12,7 +12,7 @@ function App(props) {
     }
   
     return (
-      <Container>
+      <Container theme={theme}>
         <Card
           theme={theme}
         >

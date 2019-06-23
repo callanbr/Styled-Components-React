@@ -18,5 +18,5 @@ export const Button = styled.button`
 
   color: ${props => props.theme === 'light' ? '#fff' : '#fefefe'};
   opacity: ${props => props.theme === 'light' ? 1 : 0.7};
-  background-color: ${props => props.theme === 'light' ? '#59c7f2' : '#676767'};
+  background-color: ${props => props.theme === 'light' ? '#5e8899' : '#676767'};
 `;
