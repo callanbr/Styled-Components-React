@@ -13,8 +13,8 @@ export const CardFooter = styled.div`
   padding: 10px;
 `;
 
-export function CardImage({ imgsrc }) {
+export function CardImage({ img }) {
   return (
-    <img className="card-img" src={imgsrc} alt="Evolve GTR" height="350" width="600" />
+    <img className="card-img" src={img} alt="Evolve GTR" height="350" width="600" />
   );
 }
